@@ -85,6 +85,7 @@ Output :
 ```
 
 3) GET PROFILE : http://localhost:5000/api/users/profile (with Bearer token from login or register)
+for this you need to set bearer token getting from login or register
 TYPE:GET
 
 Output :
@@ -96,6 +97,7 @@ Output :
 }
 ```
 4) INTERSECTIONS : http://localhost:5000/api/products//intersections (with Bearer token login or register)
+for this you need to set bearer token getting from login or register
 TYPE:POST
 
 Input :
