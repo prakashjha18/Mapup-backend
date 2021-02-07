@@ -1,0 +1,30 @@
+{
+  "name": "mapup-asses",
+  "version": "1.0.0",
+  "description": "Photo gallery",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "dev": "nodemon backend/server"
+  },
+  "author": "Prakash Jha",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/helpers": "^6.3.0",
+    "@turf/line-intersect": "^6.3.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.14",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
